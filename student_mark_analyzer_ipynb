@@ -1,0 +1,140 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyMJWsh4f9iAkInZCLWnhEuJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/vijayanvelmurugan6-crypto/my-first-repo/blob/main/student_mark_analyzer_ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 56,
+      "metadata": {
+        "id": "p4uAahdJUDZQ"
+      },
+      "outputs": [],
+      "source": [
+        "marks = [85,72,90,68,78]"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "total = sum(marks)"
+      ],
+      "metadata": {
+        "id": "hedug9-cUavN"
+      },
+      "execution_count": 57,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "average = total / len(marks)"
+      ],
+      "metadata": {
+        "id": "7gB0JtWiUw8q"
+      },
+      "execution_count": 58,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "highest = max(marks)"
+      ],
+      "metadata": {
+        "id": "CghsLAceVHgj"
+      },
+      "execution_count": 59,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "lowest = min(marks)"
+      ],
+      "metadata": {
+        "id": "cWvuqI-rVfCH"
+      },
+      "execution_count": 60,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if average >= 40 :\n",
+        " result = \"Pass\"\n",
+        "else :\n",
+        " result = \"Fail\""
+      ],
+      "metadata": {
+        "id": "2nCRKyv_Vomo"
+      },
+      "execution_count": 61,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Total:\" ,total)\n",
+        "print(\"Average:\", average)\n",
+        "print(\"Highest:\", highest)\n",
+        "print(\"Lowest:\", lowest)\n",
+        "print(\"Result:\", result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ASf6ZQpQV8sU",
+        "outputId": "f767f9c8-7c23-41fb-aa0e-705cd7d0f38e"
+      },
+      "execution_count": 62,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total: 393\n",
+            "Average: 78.6\n",
+            "Highest: 90\n",
+            "Lowest: 68\n",
+            "Result: Pass\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Hs7RySzCbRnv"
+      },
+      "execution_count": 62,
+      "outputs": []
+    }
+  ]
+}
